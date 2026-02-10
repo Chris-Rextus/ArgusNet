@@ -1,0 +1,18 @@
+[project]
+name = "argusnet"
+version = "0.1.0"
+description = "ArgusNet - Modular Network Diagnostics Toolkit"
+authors = [
+    { name = "Pedro de Faria" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "typer[all]>=0.12.0"
+]
+
+[project.scripts]
+argusnet = "argusnet.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
