@@ -29,7 +29,7 @@ class ArgusNetApp:
 
         while True:
 
-            self._clear_terminal()
+            #self._clear_terminal()
             self._print_header()
             self._print_menu()
 
@@ -45,7 +45,7 @@ class ArgusNetApp:
                 input("\nInvalid selection. Press Enter to continue...")
                 continue
 
-            self._clear_terminal()
+            #self._clear_terminal()
             service.run()
 
             input("\nPress Enter to return to main menu...")
